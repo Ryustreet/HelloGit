@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ガスマック広島</title>
+<meta name="google-site-verification" content="0GMuBpAWPg57q0kxaEkcAYZbzpnaMdPqeSEXF-3La-o" />
+<style>
+.navbar{
+  font-weight:700px;
+  letter-spacing:.1rem;
+  border-bottom: 0.1rem solid #0984e3;
+  margin-bottom:1rem;
+  }
+.navbar-brand{
+  margin-left:.9rem;
+  }
+
+.navbar-nav li{
+  padding-right:.8rem;
+  }
+
+.navbar-dark .navbar-collapse .navbar-nav .nav-link{
+  color:black;
+  padding-top:.8rem;
+}
+.navbar-dark .navbar-collapse .navbar-nav .nav-link:hover{
+  color:#0984e3;
+
+}
+.my-home{
+  color:#0984e3;
+}
+.my-business{
+  color:#00b894;
+}
+.my-company{
+color:#e17055;
+}
+
+.my-contact{
+  color:#fdcb6e;
+}
+/*--end Navigation--*/
+
+/*--start under nav--*/
+.narrow{
+  font-size:1.2rem;
+  padding:20px;
+  }
+.narrow .btn-secondary{
+  background-color:#0984e3;
+  }
+.phone{
+  font-size:1.3rem;
+}
+.call p{
+color:#222f3e;
+}
+.call a{
+color:#222f3e;
+}
+
+/*--start LPガス24時間サービス 画像--*/
+
+.rotate{
+
+  transition:1s;
+}
+.rotate:hover{
+    transform: rotatex(360deg);
+}
+/*--endLPガス24時間サービス 画像--*/
+/*--end under nav--*/
+
+/*start carousel--*/
+.carousel-caption h2{
+  font-size:1.2rem;
+  font-weight:700;
+  letter-spacing:.2rem;
+  text-shadow:.1rem .1rem .8rem black;
+}
+.carousel-caption h3{
+  font-size:1.0rem;
+  font-weight:700;
+  letter-spacing:.2rem;
+  text-shadow:.1rem .1rem .8rem black;
+}
+/*--start blur picture--*/
+
+.service-letter h3{
+  letter-spacing:0.2rem;
+}
+.blur-picture{
+  background-image:url(http://file.gasmachiroshima.com/bokashi.jpg);
+
+  background-size:cover;
+  color:white;
+ }
+
+.blur-dark{
+  background-color: rgba(0,0,0,0.4);
+  padding:4rem 2rem 4rem 0rem;
+}
+button{
+  background-color:#00a8ff;
+  color:white;
+}
+button a{
+  color:white;
+}
+.btn a{
+  color:white;
+}
+.more a{
+  color:black;
+}
+.safe-24hour {
+  color:#2ed573;
+}
+.safe-24hour a{
+  color:#2ed573;
+}
+
+/*--end blur picture--*/
+
+/*--start topics--*/
+.topics-text{
+color:black;
+}
+#topics-text{
+color:#222f3e;
+}
+
+/*--end topics-*/
+
+
+
+/*--start main--*/
+
+
+
+figure img{
+   -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-size:cover;
+  width:100%;
+}
+figure:hover img {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+figure button{
+   -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-size:cover;
+  width:100%;
+}
+figure:hover button {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.nav-item{
+  color:#ffa502;
+}
+.watch a{
+  font-size:1.8em;
+}
+
+
+
+/*--end-main--*/
+/*--start-underline--*/
+
+.not-under button a{
+  text-decoration: none;
+}
+#hoveronestop button a:hover{
+  color:black;
+}
+#hoverjirei button a:hover{
+  color:white;
+}
+/*--end-underline--*/
+
+/*--start reform--*/
+.reform-btn a{
+  border:1px solid black;
+  border-radius:7px;
+  padding: 0.5em 4em;
+  color:black;
+}
+/*--end reform--*/
+
+
+
+/*--animation--*/
+
+.fromTopIn
+{
+	transition: transform 1.0s ease, opacity 1.0s ease;
+
+	transform: translate(0,0);
+	opacity: 1.0;
+}
+
+.fromTopOut
+{
+	transition: transform 3.0s ease, opacity 1.0s ease;
+
+	transform: translate(0,-10px);
+	opacity: 0.0;
+}
+
+/*--animartion--*/
+
+
+
+
+/*--start company--*/
+.company-content{
+  background-image:url(http://file.gasmachiroshima.com/about-us.jpg);
+  background-size:cover;
+  color:white;
+
+ }
+
+.dark{
+  background-color: rgba(0,0,0,0.75);
+  padding:4rem 2rem 4rem 0rem;
+}
+
+.gas-mac img{
+  background-color:#dfe6e9;
+}
+/*--end company--*/
+
+
+/*--start footer--*/
+footer{
+
+
+  color:black;
+  padding: 2rem 0 2rem;
+  }
+
+footer img{
+  height:3rem;
+  margin:1.5rem 0;
+
+}
+footer a{
+  color:black;
+}
+hr.socket{
+  width:100%;
+  border-top:1px solid #b2bec3;
+
+}
+
+.under-foot{
+  margin-bottom: -30px;
+}
+/*--end footer--*/
+
+
+
+
+/*--start service--*/
+.service{
+  background-image:url("http://file.gasmachiroshima.com/construction.jpg");
+ background-size:cover;
+  margin-bottom: -15px;
+}
+.dark{
+  background-color: rgba(0,0,0,0.75);
+  padding:120px;
+  color:white;
+
+}
+.top{
+  margin-left: 10%;
+}
+
+.second-nav ul{
+ list-style:none;
+ margin-left: 10%;
+ margin-top: 1rem;
+ padding: 1rem;
+
+}
+.second-nav li{
+  float:left;
+  margin-right: 30px;
+
+}
+.second-nav li a{
+  color:black;
+}
+
+.heading-under-line{
+  width: 3rem;
+  height:.2rem;
+  background-color:#e67e22;
+  margin:0 auto 2rem;
+}
+
+
+.lpgas-about h4 {
+  position: relative;
+  color: white;
+  background: #f1c40f;
+  line-height: 0.2;
+  padding: 0.2em 0.5em 0.2em 1.0em;
+  width: 80%;
+}
+
+
+
+
+
+.energy h4 {
+  position: relative;
+  color: white;
+  background: #81d0cb;
+
+  padding: 0.2em 0.5em 0.2em 1.0em;
+  width: 80%;
+
+}
+
+/*--end service--*/
+
+/*--start gaskonro--*/
+
+.maru img{
+  border-radius:7px;
+}
+
+.safety{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #78e08f;
+  width: 83%;
+  margin:0 auto;
+  margin-top: 80px;
+}
+
+.safety .safety-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #78e08f;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.safety-title{
+  margin-bottom: 10px;
+
+}
+
+.safety p{
+  margin: 0;
+  padding: 0;
+  line-height: 2.4em;
+}
+
+
+.convinient{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #1e90ff;
+  width: 100%;
+  margin:0 auto;
+  margin-top: 80px;
+}
+
+.convinient .convinient-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background:#1e90ff;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.convinient-title{
+  margin-bottom: 10px;
+
+}
+
+.convininet p{
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+}
+
+.coccot{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #f6b93b;
+  width: 80%;
+  margin:0 auto;
+  margin-top: 80px;
+}
+
+.coccot .coccot-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #f6b93b;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.coccot-title{
+  margin-bottom: 10px;
+
+}
+
+.coccot p{
+  margin: 0;
+  padding: 0;
+  line-height: 2.4em;
+}
+
+/*--end gaskonro--*/
+
+
+/*--start drying machine--*/
+.dryingmachine h4{
+  position: relative;
+  display: inline-block;
+  padding: 0 45px;
+
+}
+.dryingmachine h4:before, .dryingmachine h4:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 44px;
+  height: 2px;
+  background-color: black;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+
+}
+.dryingmachine h4:before {
+  left:0;
+}
+.dryingmachine h4:after {
+  right: 0;
+}
+
+.red{
+  color:red;
+}
+
+
+.balloon {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.balloon:before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+
+}
+
+.balloon:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+
+}
+.balloon p {
+ margin: 0 auto;
+  padding-left: 15px;
+  text-align:left;
+}
+
+@media(max-width:670px){
+  .balloon{
+    width: 87%;
+  }
+}
+.light{
+  color:#f1c40f;
+}
+
+.kan-border{
+  border-bottom:double 3px orange;
+ width: 70%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.kantapoint{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #f1c40f;
+
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.kantapoint .kantapoint-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #f1c40f;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.kantapoint-title{
+  margin-bottom: 10px;
+  letter-spacing:2px;
+}
+
+.kantapoint p{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+.reason-title{
+  text-align:center;
+  color:#e67e22;
+}
+
+.kantapoint1{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #1abc9c;
+  width: 75%;
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.kantapoint1 .kantapoint1-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #1abc9c;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.kantapoint1-title{
+  margin-bottom: 10px;
+  letter-spacing:2px;
+}
+
+.kantapoint1 p{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+/*--end drying-machine--*/
+
+
+/*--start gasfan--*/
+.warm{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.3em 1em;
+  border: solid 3px #f0932b;
+}
+
+.warm .warm-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #f0932b;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.warm-title{
+  margin-bottom: 10px;
+}
+
+.warm p{
+  margin: 0;
+  padding: 10;
+}
+
+.month{
+  color:red;
+  font-size:1.3em;
+  line-height: 2.3em;
+}
+
+.point{
+  position:relative;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #62c1ce;
+}
+
+.point .point-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #62c1ce;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.point-title{
+  margin-bottom: 10px;
+}
+
+.point p{
+  margin: 0;
+  padding: 0;
+}
+
+.limit{
+  color:red;
+}
+
+/*--end gasfan--*/
+
+/*--start one stop service--*/
+.onestopservice h3{
+  position: relative;
+  display: inline-block;
+  padding: 0 45px;
+
+}
+.onestopservice h3:before, .onestopservice h3:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 44px;
+  height: 2px;
+  background-color: black;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+
+}
+.onestopservice h3:before {
+  left:0;
+}
+.onestopservice h3:after {
+  right: 0;
+}
+
+
+.gas-can{
+  color:red
+}
+
+.onestop1{
+  position:relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 3px #f1c40f;
+  width: 75%;
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.onestop1 .onestop1-title{
+  position:absolute;
+  display: inline-block;
+  top:-27px;
+  left:-3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align:middle;
+  font-size:17px;
+  background: #f1c40f;
+  color:#ffffff;
+  font-weight: bold;
+  border-radius:5px 5px 0 0;
+}
+.onestop1-title{
+  margin-bottom: 10px;
+  letter-spacing:2px;
+}
+
+.onestop1 p{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+.onestop-border p{
+  border: dashed 2px #6594e0;
+  width: 70%;
+  margin:0 auto;
+  padding: 1.2em;
+}
+
+
+/*--end one stop service--*/
+
+
+
+
+/*--start information--*/
+.gas-background{
+ margin-top: 2em;
+ background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("http://file.gasmachiroshima.com/kanban.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 0;
+  text-align:left;
+  padding-top: 25%;
+  position: relative;
+}
+.gas-dark{
+  margin: 0 15px;
+	max-width: 570px;
+}
+.gas-dark h3 {
+
+padding-bottom: 20px;
+
+}
+.gas-dark p{
+  padding-bottom: 30em;
+}
+.top{
+  margin-left:10%;
+
+}
+/*--end information--*/
+
+/*--start send--*/
+.send{
+  border:1px solid blue;
+  text-align:center;
+  width: 70%;
+  margin:0 auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.send-top{
+  text-align:right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20%;
+}
+/*--end send--*/
+
+
+</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="google-site-verification" content="0GMuBpAWPg57q0kxaEkcAYZbzpnaMdPqeSEXF-3La-o" />
+  </head>
+
+  <body>
+  <table style="height:165px;width:100%;"><tr><td></td></tr></table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <%= yield %>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <%= render template: 'commonfile/header' %>
+   <%= render template: 'commonfile/footer' %>
+
+
+  </body>
+</html>
+
